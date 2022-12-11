@@ -20,12 +20,12 @@
         android:id="@+id/btnConnect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CONECTARSE"
         android:layout_gravity="bottom"
         android:layout_margin="30dp"
-        android:textColor="@color/colorWhite"
         android:background="@drawable/rounded_button"
-        android:backgroundTint="@color/colorPrimaryDark"/>
+        android:backgroundTint="#0B3C5D"
+        android:text="CONECTARSE"
+        android:textColor="@color/colorWhite" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

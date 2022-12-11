@@ -24,7 +24,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark" />
+                android:background="#1E2631" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -100,10 +100,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:layout_margin="20dp"
         android:background="@drawable/rounded_button"
+        android:backgroundTint="#0B3B61"
         android:text="CALIFICAR CLIENTE"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:textColor="@color/colorWhite"
-        android:layout_margin="20dp" />
+        android:textColor="@color/colorWhite" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

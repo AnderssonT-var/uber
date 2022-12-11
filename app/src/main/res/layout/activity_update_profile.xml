@@ -26,7 +26,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark" />
+                android:background="#1E2631" />
 
             <TextView
                 android:id="@+id/textViewNameBookingDetail"
@@ -94,11 +94,11 @@
         android:id="@+id/btnUpdateProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ACTUALIZAR PERFIL"
-        android:background="@drawable/rounded_button"
-        android:backgroundTint="@color/colorPrimaryDark"
         android:layout_gravity="bottom"
         android:layout_margin="20dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#0B3C5D"
+        android:text="ACTUALIZAR PERFIL"
         android:textColor="@color/colorWhite" />
 
     <de.hdodenhof.circleimageview.CircleImageView

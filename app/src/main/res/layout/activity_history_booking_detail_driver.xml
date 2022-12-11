@@ -24,7 +24,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark" />
+                android:background="#1D2731" />
 
             <TextView
                 android:id="@+id/textViewNameBookingDetail"

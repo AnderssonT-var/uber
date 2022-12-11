@@ -128,10 +128,10 @@
                 android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="REGISTRAR"
-                android:background="@drawable/rounded_button"
-                android:backgroundTint="@color/colorPrimary"
                 android:layout_margin="30dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#0B3C5D"
+                android:text="REGISTRAR"
                 android:textColor="@color/colorWhite" />
 
         </LinearLayout>

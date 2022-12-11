@@ -69,12 +69,12 @@
         android:id="@+id/btnRequestDriver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/rounded_button"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:text="SOLICITAR VIAJE"
-        android:textColor="@color/colorWhite"
         android:layout_gravity="bottom"
-        android:layout_margin="20dp" />
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#0B3C5D"
+        android:text="SOLICITAR VIAJE"
+        android:textColor="@color/colorWhite" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

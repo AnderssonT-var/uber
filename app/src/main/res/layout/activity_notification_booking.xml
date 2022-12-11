@@ -30,14 +30,14 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colorPrimaryDark" />
+                    android:background="#1D2530" />
 
                 <ImageView
-                    android:layout_width="180dp"
-                    android:layout_height="180dp"
-                    android:src="@drawable/icon_map"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
                     android:layout_gravity="center|top"
-                    />
+                    android:src="@drawable/icon_map"
+                    tools:srcCompat="@drawable/mapa" />
 
             </com.github.florent37.shapeofview.shapes.DiagonalView>
 
@@ -174,23 +174,23 @@
             android:id="@+id/btnAcceptBooking"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ACEPTAR"
+            android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
-            android:backgroundTint="@color/colorPrimaryDark"
-            android:textColor="@color/colorWhite"
-            android:layout_marginRight="5dp"/>
+            android:backgroundTint="#0B3C5D"
+            android:text="ACEPTAR"
+            android:textColor="@color/colorWhite" />
 
         <Button
             android:id="@+id/btnCancelBooking"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RECHAZAR"
+            android:layout_marginLeft="5dp"
             android:layout_weight="1"
             android:background="@drawable/rounded_button"
-            android:backgroundTint="#595959"
-            android:textColor="@color/colorWhite"
-            android:layout_marginLeft="5dp"/>
+            android:backgroundTint="#354357"
+            android:text="RECHAZAR"
+            android:textColor="@color/colorWhite" />
 
     </LinearLayout>
 

@@ -8,8 +8,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        app:theme="@style/ToolbarTheme"
-        />
+        android:background="#1E2631"
+        app:theme="@style/ToolbarTheme" />
 
 </com.google.android.material.appbar.AppBarLayout>

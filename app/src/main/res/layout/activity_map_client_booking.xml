@@ -11,18 +11,17 @@
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:contentPadding="15dp"
         android:layout_margin="20dp"
-        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardBackgroundColor="#0B3C5D"
         app:cardCornerRadius="20dp"
-        >
+        app:contentPadding="15dp">
 
         <TextView
             android:id="@+id/textViewStatusBooking"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Estado"
-            android:textColor="@color/colorWhite"/>
+            android:textColor="@color/colorWhite" />
 
     </androidx.cardview.widget.CardView>
 
@@ -48,7 +47,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark" />
+            android:background="#1E2631" />
 
         <LinearLayout
             android:layout_width="match_parent"
